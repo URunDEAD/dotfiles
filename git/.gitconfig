@@ -1,7 +1,14 @@
 [init]
-  defaultBranch = main
+	defaultBranch = main
 [user]
-  name = Schuldesz Paul-Samuel
-  email = paulschuldesz@gmail.com
+	name = Schuldesz Paul-Samuel
+	email = paulschuldesz@gmail.com
+	signingkey = 7BE2D6780FD466F1
 [core]
-  editor = nvim
+ 	editor = nvim
+[commit]
+	gpgsign = true
+[tag]
+	gpgsign = true
+[gpg]
+	program = gpg
