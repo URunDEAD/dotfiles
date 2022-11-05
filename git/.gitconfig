@@ -1,0 +1,7 @@
+[init]
+  defaultBranch = main
+[user]
+  name = Schuldesz Paul-Samuel
+  email = paulschuldesz@gmail.com
+[core]
+  editor = nvim
