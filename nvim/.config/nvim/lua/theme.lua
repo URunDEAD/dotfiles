@@ -1,5 +1,4 @@
-packer = require 'packer'
-
 packer.use 'dracula/vim'
-
-vim.cmd('colorscheme dracula')
+if not packer_bootstrap then
+	vim.cmd('colorscheme dracula')
+end
