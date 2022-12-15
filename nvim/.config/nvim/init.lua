@@ -21,3 +21,4 @@ opt.shiftwidth = 4
 opt.number = true
 opt.relativenumber = true
 opt.smartindent = true
+opt.termguicolors = true

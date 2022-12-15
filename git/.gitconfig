@@ -5,10 +5,18 @@
 	email = paulschuldesz@gmail.com
 	signingkey = 7BE2D6780FD466F1
 [core]
- 	editor = nvim
+	editor = code --wait
 [commit]
 	gpgsign = true
 [tag]
-	gpgsign = true
+	#gpgsign = true
 [gpg]
 	program = gpg
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+  tool = code
+[mergetool "code"]
+  cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED
