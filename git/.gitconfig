@@ -3,13 +3,13 @@
 [user]
 	name = Schuldesz Paul-Samuel
 	email = paulschuldesz@gmail.com
-	signingkey = 7BE2D6780FD466F1
+	signingkey = E31C5DFED08CCB73
 [core]
 	editor = code --wait
 [commit]
 	gpgsign = true
 [tag]
-	#gpgsign = true
+	gpgsign = true
 [gpg]
 	program = gpg
 [diff]
